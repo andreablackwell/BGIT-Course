@@ -1,0 +1,64 @@
+Theory Questions 
+Question 1: 
+What does HTML stand for, and what is its primary purpose in web development? 
+
+HTML stands for HyperText Markup Language, its primary purpose in web development is it defines the structure and presentation of content on the web.
+
+Question 2: 
+Explain the difference between HTML elements and HTML attributes. Provide examples of  each. 
+
+HTML elements are tags that define the elements within a web page, such
+as headings, paragraphs, links, images, forms, and more.
+<h1> Welcome To My Webpage </h1>  
+ <p>Hello my name is Andrea. I'm excited for BGIT! Here you will learn all about me and what I am into!
+ </p>
+
+HTML attributes defines a property for an element
+<p>Checkout my IG: <a href="https://www.instagram.com/chocolate_b0mb" target=blank">Website</a></p>
+
+
+Question 3: 
+What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it? 
+
+DOCTYPE highlights that its a HTML file, if it is omitted the browser will not know how to render it.
+
+Question 4: 
+Describe the difference between inline elements and block-level elements in HTML. Give  examples of each.
+
+Block elements in HTML begin on a new line and occupy the complete horizontal space of its parent element and have the same height as the content, for Example <div> About Me </div>. Inline elements in HTML do not begin from a new line and occupy space as required, for Example <a href="https://www.instagram.com/chocolate_b0mb" target=blank">Website</a>
+
+
+Question 5: 
+Explain the significance of the following HTML tags and their usage: 
+
+<head> The head element represents a collection of metadata for the document
+<div> used as a container for HTML elements 
+<a> allow users to navigate between web pages.
+<img> allows us to include an image on our website.
+<ul> for unordered lists, <ol>for ordered lists, and List items are represented by <li> elements.
+
+Question 6: 
+What are semantic HTML elements? Provide examples of semantic elements and explain  why they are important for web accessibility and SEO. 
+
+Semantic HTML elements give meaning to the structure of web pages. They include elements like <header>, <nav>, <main>, <article>, <section>, <aside>, and <footer>. These elements help improve accessibility and SEO.
+
+Question 7: 
+What is the purpose of the HTML form element (<form>) and its associated form controls?  Provide examples of common form controls. 
+
+HTML forms are essential for collecting user input on websites. They allow users to submit data, such as text, selections, and files. Forms are built using the <form> element, and various form elements like <input>, <textarea>, and <select> are used to create
+different input fields.
+
+Question 8: 
+How can you add comments in HTML? Why are comments useful in web development? 
+
+In HTML, a comment is a section of text that is not processed by the web browser. Comments are enclosed in <! -- --> tags. These tags tell the browser that the text inside them is a comment and should not be rendered on the front end.
+
+Question 9: 
+What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+
+HTML5 is the latest version of HTML. HTML5 introduced semantic elements, improved form elements, and native support for audio and video.
+ 
+Question 10: 
+Explain the concept of "responsive web design" and how HTML contributes to creating  responsive websites.
+
+Responsive Web Design is about using HTML and CSS to automatically resize a website. Responsive Web Design is about making a website look good on all devices
