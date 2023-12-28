@@ -1,0 +1,69 @@
+
+/* paragraph styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8fff7;
+    color:#333;
+    padding: 60px;
+    margin: 0;
+}
+p {
+    color: hotpink;
+    font-size: 30px;
+   text-align: center;
+}
+
+h1{
+    color: violet;
+    font-style: initial;
+    text-align: center;
+    font-size: 50px; 
+    
+    
+    
+
+}
+
+dl{
+    color: limegreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{
+    color: plum;
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    
+    
+}
+
+div {
+    height: 150px;
+    width: 60%;
+    background-color: hotpink;
+  }
+
+
+  .color-example {
+    background-color: greenyellow;
+    color: hotpink;
+    padding: 15px;
+    border: solid; 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size:30px;
+    font-style: normal;
+    font-weight: bold;
+    word-spacing: 1px;
+  }
+
