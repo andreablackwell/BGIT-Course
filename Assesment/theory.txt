@@ -1,0 +1,50 @@
+HTML Basics
+
+1. What is the purpose of the HTML <DOCTYPE> declaration?
+The HTML <!DOCTYPE> declaration, short for Document Type Declaration, is used to specify the document type and version of HTML or XHTML that a web page is using. It appears at the very beginning of an HTML document, before the <html> tag. Its main purpose is to inform the web browser about the version of HTML or XHTML in which the page is written, allowing the browser to render the page correctly.
+
+2.Explain the difference between <div> and <span> tags.
+<div> is a block-level container used for grouping and structuring content, while <span> is an inline container used for applying styles or scripting to specific parts of text within a block-level element. The choice between them depends on the desired structure and styling needs in your HTML document.
+
+3. What is semantic HTML, and why is it important?
+Semantic HTML (HyperText Markup Language) refers to the practice of using HTML markup elements to convey the meaning or structure of the content they enclose, rather than merely specifying how the content should be presented visually. In other words, semantic HTML aims to provide a clear and meaningful structure to web documents, making them more accessible, understandable, and machine-readable.
+
+CSS Fundamentals
+
+1. Describe the difference between margin and padding.
+    a.Margin is the space outside the border of an element. It represents the gap between the element's border and the adjacent elements.
+    b.Padding is the space inside the border of an element. It represents the distance between the element's content and its border.
+
+2. What is the box model in CSS?
+The box model is a fundamental concept in CSS (Cascading Style Sheets) that describes how elements on a webpage are rendered and how their dimensions are calculated. Every HTML element is considered a rectangular box, and the box model defines the properties and behavior of this box.
+
+3. Explain the CSS specificity hierarchy.
+CSS (Cascading Style Sheets) specificity is a set of rules that determine which styles are applied to an HTML element when multiple conflicting styles are defined. Specificity is important for resolving style conflicts and ensuring that the correct styles are applied to elements. The specificity hierarchy is a way of calculating and comparing the specificity of different CSS selectors.
+
+Responsive Design
+
+1. What is a media query, and how is it used in responsive design?
+A media query is a CSS technique used in web development to apply different styles or rules to a document based on various characteristics of the device or browser viewing the page. It allows developers to create responsive designs that adapt to different screen sizes, resolutions, and other properties, providing an optimal user experience across a range of devices.
+
+2. Discuss the differences between adaptive and responsive design.
+    a.In responsive design, a single website layout is designed to dynamically adjust and respond to different screen sizes and devices. It uses flexible grids and media queries to rearrange and resize elements based on the device characteristics.
+    b.Adaptive design involves creating multiple layouts for specific screen sizes or devices. Each layout is designed to be well-suited for a particular range of screen sizes or devices. The server detects the device and serves the appropriate layout.
+
+3.Explain the concept of a viewport in web development.
+In web development, a viewport refers to the visible area of a web page within the browser window. It is essentially the portion of the web page that a user can see at any given time without scrolling. The concept becomes particularly important in the context of responsive web design, where websites are designed to adapt to various screen sizes and devices.
+
+HTML5 and CSS3 Features
+
+1. List and briefly explain three new features introduced in HTML5.
+    a.Semantic Elements:
+    HTML5 introduced a set of new semantic elements that provide a more meaningful structure to web documents. Examples include <header>, <footer>, <nav>, <article>, <section>, and <figure>. These elements help developers create clearer and more semantically rich HTML, making it easier for both humans and search engines to understand the content and structure of a webpage.
+    b.Canvas:
+    The <canvas> element in HTML5 allows developers to draw graphics, animations, and interactive content directly within the browser using JavaScript. This feature is particularly useful for creating dynamic and visually appealing applications, such as games, data visualizations, and image manipulation tools. Developers can use the canvas API to draw shapes, images, and text, and manipulate them in real-time.
+    c.Audio and Video Support:
+    HTML5 introduced native support for embedding audio and video content without the need for third-party plugins like Flash. The <audio> and <video> elements enable developers to easily embed multimedia content into web pages. This native support promotes standardization and eliminates the need for additional plugins, providing a more consistent and efficient way to integrate multimedia elements into websites. Additionally, HTML5 supports various codecs, allowing developers to choose the most suitable format for their content.
+
+2.What are CSS variables, and how do they differ from traditional variables in programming languages?
+CSS variables, also known as custom properties, are a feature introduced in CSS3 that allow you to define reusable values in your stylesheets. They are defined using the -- prefix, followed by a name, and then assigned a value.
+
+3. Discuss the advantages of using Flexbox or Grid layout in CSS.
+Flexbox and Grid layout are essential tools in CSS, offering distinct advantages in web design. Flexbox is perfect for one-dimensional layouts, allowing easy alignment and dynamic sizing of items along a single axis. It excels in creating responsive designs and simplifies the arrangement of elements in rows or columns. On the other hand, Grid layout provides a two-dimensional grid system, offering precise control over the placement of items both horizontally and vertically. It is ideal for creating complex layouts, supporting responsive design without the need for extensive media queries. Grid layout's explicit grid lines and auto-placement features make it efficient for designing intricate structures and facilitating responsive behavior.
